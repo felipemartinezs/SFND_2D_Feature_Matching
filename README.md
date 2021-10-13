@@ -419,10 +419,10 @@ File `MP_7_Keypoints.csv`
 
 
 
-![image-6.png](attachment:image-6.png)
+![image-6.png](./images/tables/mp7_table.PNG)
 
 
-![image-2.png](attachment:image-2.png)
+![image-2.png](./images/tables/mp7_graph.PNG)
 
 
 In the graph, we can see that the HARRIS Detector has the least number of keypoints detected.
@@ -435,13 +435,29 @@ The FAST detector has the most significant number of keypoints detected.
 * In the matching step, the BF approach is used with the descriptor distance ratio set to 0.8.
 * Solution Result: please check `MP_8_Matched_Keypoints.csv` 
 
-![image-4.png](attachment:image-4.png)
+![image-4.png](./images/tables/mp8_table.PNG)
 
 
-![image-3.png](attachment:image-3.png)
+![image-3.png](./images/tables/mp8_graph.PNG)
 
 
 ---
+
+#### MP.9 Performance Evaluation 3
+* Log the time it takes for keypoint detection and descriptor extraction. 
+* The results must be entered into a spreadsheet and based on this data, the TOP3 detector / descriptor combinations must be recommended as the best choice for our purpose of detecting keypoints on vehicles.
+* Solution Result: please check `MP_9_Time.csv` 
+
+Considering `MP_8_Matched_Keypoints.csv` and `MP_9_Time.csv` The TOP3 detector / descriptor combinations as the best choice for our purpose of detecting keypoints on vehicles are:
+
+
+
+![image.png](./images/tables/mp9_table.PNG)
+
+![image-2.png](./images/tables/mp9_graph.PNG)
+
+
+
 * `MP.7`, `MP.8`, and `MP.9`: 
     
 *  Lines 45 ~ 93 at `MidTermProject_Camera_Student.cpp`
