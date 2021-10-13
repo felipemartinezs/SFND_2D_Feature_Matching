@@ -97,7 +97,7 @@ else
 
 File `matching2D_Student.cpp`
 
-Lines 171 ~ 294 at
+* Lines 171 ~ 294 at
 
 ```c++
 // ...add start: MP.2 Keypoint Detection
