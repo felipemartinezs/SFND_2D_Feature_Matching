@@ -431,8 +431,8 @@ The FAST detector has the most significant number of keypoints detected.
 
 
 #### MP.8 Performance Evaluation 2
-* Count the number of matched keypoints for all 10 images using all possible combinations of detectors and descriptors. 
-* In the matching step, the BF approach is used with the descriptor distance ratio set to 0.8.
+The eighth task is to count the number of matched keypoints for all 10 images using possible detectors and descriptors combinations. In the matching step, use the BF approach with the descriptor distance ratio set to 0.8.
+
 * Solution Result: please check `MP_8_Matched_Keypoints.csv` 
 
 ![image-4.png](./images/tables/mp8_table.PNG)
